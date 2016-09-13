@@ -1,0 +1,106 @@
+.topmenu{
+color:#fff ;
+ /* Ширина меню  */
+}
+
+/* Убираем поля , отступы и маркеры для основного списка  */
+.topmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Выстраиваем элементы списка горизонтально*/
+.topmenu ul li{
+/*background-image: url("/templates/florispack/images/delitel_menu.jpg");*/
+background-position: 0% 50%;
+background-repeat: no-repeat;
+display: inline;
+float: left;
+position: relative;
+}
+.topmenu ul li img{
+display:none;
+}
+/*Стили ссылок пунктов списка верхнего уровня*/
+.topmenu ul li a{
+display: block;
+text-decoration: none;
+}
+
+* html .topmenu ul li a{ /*Хак специально для IE6, чтобы достичь корректного отображения*/
+display: inline-block;
+}
+
+.topmenu ul li a:link, .topmenu ul li a:visited{
+
+}
+
+.topmenu ul li a:hover{
+text-decoration:none;
+}
+	
+
+.topmenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+margin:0;
+z-index:1;
+width: 190px !important;
+}
+
+
+.topmenu ul li ul li:hover{
+border: 1px solid #ccc;   /*  стиль перегородки между пунктами подменю */
+width: 190px !important;
+}
+.topmenu ul li ul li{
+display: list-item;
+float: none;
+text-align:left;
+border: 1px solid #ccc;   /*  стиль перегородки между пунктами подменю */
+position:relative;
+z-index:2;
+}
+
+
+.topmenu ul li ul li ul{
+ left: 190px !important;
+    top: -1px !important;
+    width: 190px !important;
+}
+
+/* Стили для подменю */
+.topmenu ul li ul li a{
+background:#fff;  /* фоновый цвет подменю в обычном состоянии */
+font-size: 12px;  /* стиль шрифта элементов подменю */
+font-family: 'Noto Sans', sans-serif;
+width: 174px; /*ширина подменю*/
+padding: 6px; /*отступы*/
+margin: 0;
+color:#656565;
+border-top-width: 0;   
+border-left:4px solid #fff;
+}
+
+.topmenu ul li ul li a:hover{ 
+background: #fff; /* фоновый цвет подменю при наведении */
+color: #2f8009;  /* цвет текста подменю при наведении */
+border-left:4px solid #2f8009;
+}
+
+/* ######### Стили для изображений (стрелочки вниз и вправо) ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 7px;
+right: 5px;
+}

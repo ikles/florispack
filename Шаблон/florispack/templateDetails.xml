@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>Florispack</name>
+	<creationDate>10 june 2016</creationDate>
+	<author>Mikhail Orekhov</author>
+	<authorEmail>orexov_m@inbox.ru</authorEmail>
+	<authorUrl>http://www.romashka-web.ru</authorUrl>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>Шаблон Флориспак</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+
+	<positions>
+		<position>search</position>
+		<position>phone</position>
+		<position>topmenu</position>
+		<position>slideshow</position>
+		<position>breadcrums</position>
+		<position>copyright</position>
+		<position>footer_mail</position>
+		<position>footer_adres</position>
+		<position>footer_schetchik</position>
+		<position>footer_phone</position>
+		<position>catalls</position>
+		<position>icons</position>
+		<position>form-bottom</position>
+		<position>ord1</position>
+		<position>popup-form</position>
+	</positions>
+
+</extension>

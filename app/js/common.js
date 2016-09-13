@@ -1,8 +1,3 @@
 $(function() {
-
-	$(".toggle-mnu").click(function() {
-		$(this).toggleClass("on");
-		$(".main-mnu").slideToggle();
-		return false;
-	});
-});
+	$('#simpleForm2_108').append('<a class="link-calc" href="/prajs-list/kalkulyator-raschjota-stoimosti"></a>');
+});//ready

@@ -1,0 +1,71 @@
+.vertical {
+    background: url("../images/top_menu_bg.jpg") repeat-x scroll 0 0 transparent;
+    font: normal 12px Verdana;
+    margin: 0 auto;
+	width:220px;
+
+}
+.vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.vertical ul li {
+    display: inline;
+    float: left;
+    position: relative;
+}
+.vertical ul li a {
+    background: url("/templates/upravdom/images/top_menu_bg.jpg") repeat-x scroll 0 0 transparent;
+    border:1px solid #fff;
+    color: #2D2B2B;
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    width: 215px;
+}
+* html .vertical ul li a {
+    display: inline-block;
+}
+.vertical ul li a:link, .vertical ul li a:visited {
+    color: white;
+}
+.vertical ul li a:hover {
+    background: #5bc277;
+    color: white;
+}
+.vertical ul li ul {
+    display: block;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+}
+.vertical ul li ul li {
+    display: list-item;
+    float: none;
+}
+.vertical ul li ul li ul {
+    top: 0;
+}
+.vertical ul li ul li a {
+    border:1px solid white;
+   
+    font: 13px Verdana;
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+}
+.verticalz ul li ul li a:hover {
+    background: none repeat scroll 0 0 #EFF9FF;
+    color: black;
+}
+.downarrowclass {
+    position: absolute;
+    right: 7px;
+    top: 12px;
+}
+.rightarrowclass {
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
