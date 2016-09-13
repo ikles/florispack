@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-weight: inherit
+  font-style: inherit
+  font-size: 100%
+  font-family: inherit
+  vertical-align: baseline
+
+\:focus
+  outline: 0
+
+body
+  line-height: 1
+  color: black
+  background: white  
+
+ol, ul
+  list-style: none
+
+table
+  border-collapse: separate
+  border-spacing: 0
+
+caption, th, td
+  text-align: left
+  font-weight: normal
+
+blockquote
+  &:before, &:after
+    content: ""
+
+q
+  &:before, &:after
+    content: ""
+
+blockquote, q
+  quotes: "" ""
+
+li 
+	list-style: none
+
+ul 
+	padding: 0
+	margin: 0
+
+@import _fonts
+@import _mnu
+
+.wrapper
+  width: 812px
+  margin: auto
+  overflow: hidden
+
+.ord1
+  text-align: center
+  display: block
+  width: 167px
+  height: 35px
+  background-color: rgb(96, 185, 55)
+  background-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.01) 100%)
+  border-radius: 3px
+  box-shadow: 0 1px 0 rgb(48, 123, 13), inset 0 0 0 1px rgba(179, 243, 150, 0.44)
+  color: white
+  font-family: Tahoma
+  font-size: 15px
+  font-weight: 700
+  line-height: 2.1
+  margin-bottom: 3px
+  margin-top: 10px
+  &:hover
+    color: #FFF 
+    text-decoration: none
+  &:focus
+    color: #FFF 
+    text-decoration: none
+  &:active
+    color: #FFF 
+    text-decoration: none
+
+.catals
+  margin-top: 20px
+  li
+    width: 180px
+    float: left
+    font-size: 0
+    margin-right: 30px
+    margin-bottom: 37px
+    &:nth-child(4n)
+      margin-right: 0
+  span
+    margin-top: 10px
+    display: block
+    text-align: center
+    height: 53px
+    background-color: rgb(96, 185, 55)
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.01) 100%)
+    border-radius: 3px
+    box-shadow: 0 1px 0 rgb(48, 123, 13), inset 0 0 0 1px rgba(179, 243, 150, 0.44)
+    width: 100%
+    color: white
+    font-family: Tahoma
+    font-size: 13px
+    font-weight: 400
+    line-height: 1.2    
+    box-sizing: border-box
+    padding: 10px 38px 0 38px
+
+.icons
+  td
+    vertical-align: middle
+    color: rgb(70, 88, 102)
+    font-family: Tahoma
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 1.5
+    text-align: left 
+    width: 304px   
+    padding-right: 10px
+    padding-bottom: 20px
+    &:nth-child(2n-1)
+      width: 102px
+      padding-right: 0
+
+.form
+  margin-bottom: 50px
+  background: url("../img/form_bg.png") no-repeat 0 0
+  padding-left: 410px
+  padding-top: 18px
+  padding-right: 18px
+  box-sizing: border-box    
+  width: 812px
+  height: 201px    
+  border: 1px solid rgb(177, 227, 154)
+  border-radius: 3px
+  form   
+    width: 385px
+    box-sizing: border-box 
+    input[type=text]
+      width: 185px
+      height: 33px      
+      background-color: rgba(239, 250, 234, 0.62)
+      border: 1px solid rgb(147, 206, 120)
+      border-radius: 3px
+      color: rgb(103, 170, 80)
+      font-family: Tahoma
+      font-size: 12px
+      font-weight: 400
+      box-sizing: border-box
+      padding: 0 10px    
+      float: left
+      &:nth-child(2)
+        float: right
+        margin-right: 0
+    input[placeholder]         
+      color: rgb(103, 170, 80)
+      opacity: 1
+    input:-moz-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    input::-moz-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    input::-webkit-input-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    input:-ms-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    input::placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    textarea
+      margin-top: 10px
+      width: 385px
+      height: 73px      
+      background-color: rgba(239, 250, 234, 0.62)
+      border: 1px solid rgb(147, 206, 120)
+      border-radius: 3px
+      color: rgb(103, 170, 80)
+      font-family: Tahoma
+      font-size: 12px
+      font-weight: 400
+      padding: 10px      
+      box-sizing: border-box  
+    textarea[placeholder]         
+      color: rgb(103, 170, 80)
+      opacity: 1
+    textarea:-moz-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    textarea::-moz-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    textarea::-webkit-input-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    textarea:-ms-placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1
+    textarea::placeholder
+      color: rgb(103, 170, 80)
+      opacity: 1    
+    input[type=submit]
+      border: none
+      margin-top: 10px
+      width: 167px
+      height: 35px
+      background-color: rgb(96, 185, 55)
+      background-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.01) 100%)
+      border-radius: 3px
+      box-shadow: 0 1px 0 rgb(48, 123, 13), inset 0 0 0 1px rgba(179, 243, 150, 0.44)
+      color: white
+      font-family: Tahoma
+      font-size: 15px
+      font-weight: 700
+      line-height: 1.5
+      float: right
+      
+.form2  
+  background-image: none
+  width: 250px
+  height: auto  
+  padding: 20px
+  box-sizing: border-box
+  overflow: hidden
+  form
+    input[type=text]
+      width: 210px
+      margin-bottom: 10px
+      &:nth-child(2)
+        width: 210px
+        float: left
+    input[type=submit]
+      width: 210px
+      float: left
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import _media
